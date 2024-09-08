@@ -5,7 +5,7 @@ i = 0
 while i < len(my_list):
     if my_list[i] < 0:
         del my_list[i:]
-        continue
+        break
     else:
         i += 1
 print(*my_list, sep="\n")
